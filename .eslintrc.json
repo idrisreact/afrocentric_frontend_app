@@ -17,8 +17,10 @@
     "ecmaVersion": 12,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint"],
+  "plugins": ["@typescript-eslint", "no-loops"],
   "rules": {
-    "no-console": 2
+    "no-console": 2,
+    "no-loops/no-loops": 2,
+    "no-unused-vars": 2
   }
 }
